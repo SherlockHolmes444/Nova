@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nova AI Animation</title>
+    <style>
+      body { margin: 0; overflow: hidden; }
+      #inputBox {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        z-index: 10;
+        background: white;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="inputBox">
+      <input id="prompt" placeholder="Describe animation" />
+      <button onclick="generate()">Generate</button>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
