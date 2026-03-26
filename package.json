@@ -1,0 +1,14 @@
+{
+  "name": "nova-ai-animation",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "vite"
+  },
+  "dependencies": {
+    "three": "^0.160.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
